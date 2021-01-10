@@ -18,7 +18,7 @@
 
 require_once('./LINEBotTiny.php');
 
-$channelAccessToken = 'rwcPtauiFr+R6bowTG0hctnht+cXbF5zIWDCgeVAz4ol71W0iff1uieY/lWOec6XJbHYO/DZOmdEnaOh2YBsa1Zp6+lXtWF5ItdkwpLbUhIJM2xzcx2pfahM59cg1Mj5vZgm9w860ggttz5+BR6b1AdB04t89/1O/w1cDnyilFU=';
+$channelAccessToken = 'XTUXbtcyMfHjFNW/4U5c23i+h82Jpk22BfVfI37tH7PHZuMiQ5m65pNubFfEZkW0JbHYO/DZOmdEnaOh2YBsa1Zp6+lXtWF5ItdkwpLbUhIY//dN5F8KQezktXG4igFg6mkqaWXNwnjScsV6rir/OAdB04t89/1O/w1cDnyilFU=';
 $channelSecret = '4806448192de8cb41ccf3d2857b92e07';
 
 $client = new LINEBotTiny($channelAccessToken, $channelSecret);
