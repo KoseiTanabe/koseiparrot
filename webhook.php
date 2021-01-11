@@ -16,11 +16,12 @@
  * under the License.
  */
 
-require_once('./LINEBotTiny.php');
+require_once('LINEBotTiny.php');
 
 $channelAccessToken = 'XTUXbtcyMfHjFNW/4U5c23i+h82Jpk22BfVfI37tH7PHZuMiQ5m65pNubFfEZkW0JbHYO/DZOmdEnaOh2YBsa1Zp6+lXtWF5ItdkwpLbUhIY//dN5F8KQezktXG4igFg6mkqaWXNwnjScsV6rir/OAdB04t89/1O/w1cDnyilFU=';
 $channelSecret = '4806448192de8cb41ccf3d2857b92e07';
 
+//LinebotTiny
 $client = new LINEBotTiny($channelAccessToken, $channelSecret);
 foreach ($client->parseEvents() as $event) {
     switch ($event['type']) {
